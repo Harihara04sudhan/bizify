@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+        <link rel="stylesheet" href="login_css.css">
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="form-container" id="signInForm">
+        <h1>Login</h1>
+        <div class="login-options">
+            <img src="google.jpg" alt="Google Logo">
+            <img src="fb.jpg" alt="Facebook Logo">
+        </div>
+        <p>or</p>
+        <form action="#">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <div class="forgot-password">
+                <a href="#">Forgot your password?</a>
+            </div>
+            <button type="submit">Sign In</button>
+            <p>Don't have an account? <button class="switch-button" id="signUp">Sign Up</button></p>
+        </form>
+    </div>
+
+    <div class="form-container" id="signUpForm" style="display: none;">
+        <h1>Create a account</h1>
+        <div class="login-options">
+            <img src="google.jpg" alt="Google Logo">
+            <img src="fb.jpg" alt="Facebook Logo">
+        </div>
+        <p>or</p>
+        <form action="#">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">Create a account</button>
+            <p>Already have an account? <button class="switch-button" id="signIn">Sign In</button></p>
+        </form>
+    </div>
+</div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
